@@ -1,0 +1,151 @@
+/*
+** Name:        Chris Botuli
+** Student ID:  201638861
+** Class:      COMP 3612
+** Section:     001
+** Professor:   Randy Connolly
+** Assignment:  1
+** Due Date:    October 9 2021
+** File:        styles.css
+** Description: This is the style sheet for all html pages. There are referneces to where I may have gotten some help from a tutorial and such below.
+*/
+#homepage{
+
+    background-image: url('images/florence.jpg');
+    background-repeat: no-repeat;
+}
+
+/*Did this to remove white space along x-axis*/
+html,body {
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+
+/*details of the header*/
+ul {
+    display: inline-block;
+    font-size: 28px;
+    list-style: none;
+    font-family: Arial;
+    
+}
+
+ul a{
+    color:#51279B;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+h2, h3, #button {
+    color: white;
+}
+
+h2, h3, #button{
+position: relative;
+right: -115px;
+}
+
+h2{
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+h3{
+    font-size: 24px;
+    font-family: Arial;
+}
+
+/*button tutorial here: https://www.w3schools.com/css/css3_buttons.asp*/
+
+#button {
+    background-color: #51279B;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    height: 55px;
+}
+
+a #button:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+ul a:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+/*Did this to center the cards and contents of footer*/
+.cards, footer, .Largeimage{
+    text-align: center;
+}
+
+.card1, .card2, .card3 {
+    display: inline-block;
+    padding-top: 300px;
+    text-align: left;
+}
+
+/*This is in refernce to the likes and comments on the main page,
+needed to differentiate the configuration for the main page and the linked pages.
+*/
+.cards .heart, .cards .comment{
+    width: 20px;
+    height: 20px;
+    text-align: left;
+}
+
+
+.commentnumber, .heartnumber{
+    display: inline-block;
+    font-size: 10px;  
+}
+
+.description{
+font-size: 12px;    
+}
+
+.title{
+    font-size: 14px;
+}
+
+footer{
+    background-color: honeydew;
+}
+
+.Largeimage p{
+    font-family:  sans-serif;
+}
+
+/*Used this as a refernce for a multicored border https://stackoverflow.com/questions/38850419/how-to-create-multi-color-border-with-css*/
+.linkedheader ul{
+    width: 1120px;
+    height: 70px;
+    border-bottom: 5px solid;
+    border-image:   linear-gradient(to right, purple 30%, red 60%, teal 85%) 5;
+}
+
+.xy{
+    font-weight: bolder;
+}
+
+.flag{
+    width: 30px;
+    height: 20px;
+}
+
+.location, .flag{
+    display: inline-block;
+}

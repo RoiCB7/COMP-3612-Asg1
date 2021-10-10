@@ -1,0 +1,93 @@
+<!--
+---- Name:        Chris Botuli
+---- Student ID:  201638861
+---- Class:       COMP 3612
+---- Section:     001
+---- Professor:   Randy Connolly
+---- Assignment:  1
+---- Due Date:    October 9 2021
+---- File:        index.html
+---- Description: Assignment's purpose is to create a website with some basic functionality, such images, usable links and buttons.
+----              Each image on the bottom portion of the home page will send the user to a link which contains a map of the location.
+----              Save for the 'home', all header links are dummies as is the 'Learn More' button and footer links.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body id="homepage">
+
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <ul>
+            <a href="index.html">HOME</a>
+            <a href="#">BROWSE</a>
+            <a href="#">DESTINATION</a>
+            <a href="#">FLIGHTS</a>
+            <a href="#">SEARCH</a>
+            <a href="#">ABOUT</a>
+        </ul>
+
+    </header>
+
+    <h2>Now is the time to explore</h2>
+
+    <h3>Visit the land of your dreams</h3>
+
+    <a href="index.html">
+        <button id="button">LEARN MORE</button>
+    </a>
+
+    <!--Card creation sourced from https://www.w3schools.com/howto/howto_css_cards.asp-->
+
+    <section class="cards">
+
+        <div class="card1">
+            <a href="Nova Scotia.html"><img src="images/1-small.jpg" alt="Nova Scotia"></a>
+            <p class="title">Explore Nova Scotia</p>
+            <p class="description">On board a small sailing ship leaving Luxemburg.</p>
+            <img class="heart" src="images/heart.png">
+            <p class="heartnumber">112</p>
+            <img class="comment" src="images/comment.png">
+            <p class="commentnumber">23</p>
+        </div>
+
+        <div class="card2">
+            <a href="Santorini.html"><img src="images/2-small.jpg" alt="Santorini"></a>
+            <p class="title">Dusk on Santorini</p>
+            <p class="description">Devoted yourself to the sunset</p>
+            <img class="heart" src="images/heart.png">
+            <p class="heartnumber">2313</p>
+            <img class="comment" src="images/comment.png">
+            <p class="commentnumber">18</p>
+
+        </div>
+
+        <div class="card3">
+            <a href="Amsterdam.html"><img src="images/3-small.jpg" alt="Amsterdam"></a>
+            <p class="title">Amsterdam Flower Market</p>
+            <p class="description">The only floating flower in the world</p>
+            <img class="heart" src="images/heart.png">
+            <p class="heartnumber">14</p>
+            <img class="comment" src="images/comment.png">
+            <p class="commentnumber">5</p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2022 Explore</p>
+        <p> <a href="#">About Us</a> <a href="#">Privacy Policy</a> <a href="#"></a> <a href="#">Sitemap</a>
+    </footer>
+
+</body>
+
+</html>
